@@ -4,7 +4,7 @@ import { FaTwitter } from 'react-icons/fa';
 export default function Footer(props) {
   const { nextQuote } = props;
   return (
-    <div className='w-full justify-between items-center flex'>
+    <div className='w-full justify-between items-center flex px-2 md:px-5'>
       <a
         href='https://twitter.com/intent/tweet'
         target='_blank'

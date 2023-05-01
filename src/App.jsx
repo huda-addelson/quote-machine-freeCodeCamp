@@ -31,8 +31,10 @@ function App() {
       ) : (
         <Fragment>
           <Header />
-          <div className='w-5/12 h-full bg-zinc-100 mt-10' id='quote-box'>
-            <div className='flex flex-col items-center justify-center p-10 gap-y-10'>
+          <div
+            className='w-11/12 sm:w-4/5 md:w-5/6 lg:w-5/12 h-full bg-zinc-100 mt-10'
+            id='quote-box'>
+            <div className='flex flex-col items-center justify-center px-5 py-10 gap-y-10'>
               <Content quote={quote} />
               <Footer nextQuote={getQuotes} />
             </div>
